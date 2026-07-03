@@ -1,0 +1,5 @@
+spring:
+    datasource:
+        url: ${SPRING_DATASOURCE_URL}
+#spring.config.import: "optional:file:.env[.properties]" #VERY IMPORTANT. Without this, .env won't be accessed
+websiteUrl: https://dmsacad.com

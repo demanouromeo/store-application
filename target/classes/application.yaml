@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: STORE_APPLICATION
+    jwt:
+        secret: ${JWT_SECRET}
+        accessTokenExpiration: 7200 #900 #150 -->2min30s #300 --> 5minutes
+        refreshTokenExpiration: 604800
+    profiles:
+        active: ${SPRING_PROFILES_ACTIVE:dev} #Active profile is defined in .env. Default is dev
+
+spring.config.import: "optional:file:.env[.properties]" #VERY IMPORTANT. Without this, .env won't be accessed
+stripe:
+    secretKey: ${STRIPE_SECRET_KEY}
+    publicKey: ${STRIPE_PUBLIC_KEY}
+    webhookSecretKey: ${STRIPE_WEBHOOK_SECRET_KEY}

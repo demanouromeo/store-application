@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+        username: root
+        password: ""
+    jpa:
+        show-sql: true
+    output:
+        ansi:
+            enabled: ALWAYS
+websiteUrl: https://dmsacad.com
