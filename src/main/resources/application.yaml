@@ -11,5 +11,5 @@ spring:
 spring.config.import: "optional:file:.env[.properties]" #VERY IMPORTANT. Without this, .env won't be accessed
 stripe:
     secretKey: ${STRIPE_SECRET_KEY}
-    publicKey: ${STRIPE_PUBLIC_KEY}
+    #publicKey: ${STRIPE_PUBLIC_KEY}
     webhookSecretKey: ${STRIPE_WEBHOOK_SECRET_KEY}

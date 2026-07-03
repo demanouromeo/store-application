@@ -18,8 +18,8 @@ public class StripeConfig {
     @Value("${stripe.secretKey}")
     private String secretKey;
 
-    @Value("${stripe.publicKey}")
-    private String publicKey;
+    // @Value("${stripe.publicKey}")
+    // private String publicKey;
 
     @PostConstruct//Tells Spring to call this method when this bean is created
     public void init(){

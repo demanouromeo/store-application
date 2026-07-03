@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-07-03T13:19:35-0400",
-    comments = "version: 1.6.3, compiler: Eclipse JDT (IDE) 3.46.100.v20260624-0231, environment: Java 21.0.11 (Eclipse Adoptium)"
+    date = "2026-07-03T15:39:54-0400",
+    comments = "version: 1.6.3, compiler: javac, environment: Java 25.0.2 (Oracle Corporation)"
 )
 @Component
 public class ProductMapperImpl implements ProductMapper {
@@ -49,8 +49,8 @@ public class ProductMapperImpl implements ProductMapper {
 
         Product.ProductBuilder product = Product.builder();
 
-        product.description( request.getDescription() );
         product.name( request.getName() );
+        product.description( request.getDescription() );
         product.price( request.getPrice() );
 
         return product.build();
@@ -62,8 +62,8 @@ public class ProductMapperImpl implements ProductMapper {
             return;
         }
 
-        product.setDescription( request.getDescription() );
         product.setName( request.getName() );
+        product.setDescription( request.getDescription() );
         product.setPrice( request.getPrice() );
     }
 
