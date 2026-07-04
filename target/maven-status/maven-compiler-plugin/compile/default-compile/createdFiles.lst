@@ -10,10 +10,12 @@ com\dmsacad\store\exceptions\PaymentException.class
 com\dmsacad\store\entities\CartItem.class
 com\dmsacad\store\configuration\SecurityConfig.class
 com\dmsacad\store\exceptions\OrderNotFoundException.class
+com\dmsacad\store\mappers\CategoryMapperImpl.class
 com\dmsacad\store\filters\LoginFilter.class
 com\dmsacad\store\controllers\validation\LowercaseValidator.class
 com\dmsacad\store\repositories\AddressRepository.class
 com\dmsacad\store\services\ProductService.class
+com\dmsacad\store\dtos\response\CategoryDto.class
 com\dmsacad\store\dtos\response\OrderDto.class
 com\dmsacad\store\entities\Cart.class
 com\dmsacad\store\entities\Order$OrderBuilder.class
@@ -42,9 +44,12 @@ com\dmsacad\store\dtos\response\CartItemDto.class
 com\dmsacad\store\controllers\CartController.class
 com\dmsacad\store\mappers\OrderMapperImpl.class
 com\dmsacad\store\configuration\StripeConfig.class
+com\dmsacad\store\controllers\CategoryController.class
 com\dmsacad\store\dtos\response\CheckoutResponse.class
 com\dmsacad\store\dtos\ErrorDto.class
 com\dmsacad\store\entities\Order.class
+com\dmsacad\store\mappers\CategoryMapper.class
+com\dmsacad\store\dtos\request\CategoryRequest.class
 com\dmsacad\store\mappers\CartMapperImpl.class
 com\dmsacad\store\dtos\request\ChangePasswordRequest.class
 com\dmsacad\store\entities\Profile$ProfileBuilder.class
@@ -81,6 +86,7 @@ com\dmsacad\store\dtos\response\OrderProductDto.class
 com\dmsacad\store\repositories\OrderRepository.class
 com\dmsacad\store\entities\Product.class
 com\dmsacad\store\services\CheckoutService.class
+com\dmsacad\store\entities\Category$CategoryBuilder.class
 com\dmsacad\store\entities\User.class
 com\dmsacad\store\controllers\CheckoutController.class
 com\dmsacad\store\entities\User$UserBuilder.class

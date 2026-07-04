@@ -1,18 +1,23 @@
 package com.dmsacad.store.controllers;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.util.UriComponentsBuilder;
+
 import com.dmsacad.store.dtos.request.CartItemRequest;
 import com.dmsacad.store.dtos.request.CartItemUpdateRequest;
 import com.dmsacad.store.dtos.response.CartDto;
 import com.dmsacad.store.dtos.response.CartItemDto;
-import com.dmsacad.store.entities.CartItem;
-import com.dmsacad.store.entities.Cart;
-import com.dmsacad.store.exceptions.CartNotFoundException;
-import com.dmsacad.store.exceptions.ProductNotFoundException;
-import com.dmsacad.store.mappers.CartMapper;
-import com.dmsacad.store.repositories.CartRepository;
-import com.dmsacad.store.repositories.ProductRepository;
 import com.dmsacad.store.services.CartService;
-import com.dmsacad.store.tools.Utility;
+
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -20,20 +25,13 @@ import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
-import org.springframework.data.domain.Sort;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.util.UriComponentsBuilder;
-
-import java.util.Map;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/carts")
 @AllArgsConstructor
 @Tag(name = "Carts")//The default controller on swagger UI is cart-controller. Using Here we changed it into "Carts"
 public class CartController {
+
     //private final CartMapper cartMapper;
     private final CartService cartService;
 
@@ -43,7 +41,7 @@ public class CartController {
         /* N+1 Problem
         return cartRepository.findAll(Sort.by("dateCreated").descending())
                 .stream().map(cartMapper::toDto).toList();
-        */
+         */
         //Solving N+1 problem
         return cartService.findAllCarts();
 
@@ -94,7 +92,7 @@ public class CartController {
 
     @DeleteMapping("/{cartId}/items")
     public ResponseEntity<?> clearCart(//Delete all cartItems related to a cart
-                                       @PathVariable(required = true) @NotNull String cartId
+            @PathVariable(required = true) @NotNull String cartId
     ) {
         cartService.clearCart(cartId);
         return ResponseEntity.noContent().build();

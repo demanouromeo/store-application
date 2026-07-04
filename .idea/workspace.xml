@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fd83015-0dfe-42e4-869c-9dbc88deea03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/request/CategoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/response/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/mappers/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/request/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/request/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V5__population the database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__population the database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/configuration/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/dtos/request/ProductRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/dtos/request/ProductRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/entities/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/repositories/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/repositories/CategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V5__population the database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V5__population the database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/CartMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/OrderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/OrderMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/ProductMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/ProductMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springboot2-1.0.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/store-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.dmsacad.springboot2.StoreApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.dmsacad.springboot2.StoreApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dmsacad/springboot2/StoreApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="108" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.226438225714247E-101" />
+      <entry key="MS500" value="7.40494999235657E-21" />
+      <entry key="S2" value="9.276422753777291E-6" />
+      <entry key="S5" value="0.009704031843727487" />
+      <entry key="S10" value="0.09850904447677628" />
+      <entry key="S30" value="0.46184052215171595" />
+      <entry key="S60" value="0.6795888373778629" />
+      <entry key="M2" value="0.8261779449517891" />
+      <entry key="M5" value="1.3156755630491297" />
+      <entry key="M10" value="3.7192836821696633" />
+      <entry key="M15" value="6.779657874217623" />
+      <entry key="M30" value="14.843440787644383" />
+      <entry key="H1" value="24.067873436702925" />
+      <entry key="H2" value="31.530171180941885" />
+      <entry key="H4" value="36.48356931183905" />
+      <entry key="D1" value="41.74190525950225" />
+      <entry key="W1" value="42.81452897940386" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000072996899223" />
+      <entry key="S5" value="1.0130629967352387" />
+      <entry key="S10" value="1.1609969434811385" />
+      <entry key="S30" value="1.8627953003105908" />
+      <entry key="S60" value="2.313472064042036" />
+      <entry key="M2" value="2.6229259247702856" />
+      <entry key="M5" value="3.3803026023497935" />
+      <entry key="M10" value="7.23998454831271" />
+      <entry key="M15" value="12.364076324112126" />
+      <entry key="M30" value="25.488189532026233" />
+      <entry key="H1" value="39.58525300093107" />
+      <entry key="H2" value="50.40980332061996" />
+      <entry key="H4" value="57.32328880794317" />
+      <entry key="D1" value="64.36766129614833" />
+      <entry key="W1" value="65.76071578494629" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0610000756361103E-8" />
+      <entry key="MS500" value="0.025418099941628938" />
+      <entry key="S2" value="0.399295418274514" />
+      <entry key="S5" value="0.7088657697019686" />
+      <entry key="S10" value="1.0493697650172635" />
+      <entry key="S30" value="2.186247748036015" />
+      <entry key="S60" value="2.9020544986369265" />
+      <entry key="M2" value="3.3960739636015433" />
+      <entry key="M5" value="4.6656278002807845" />
+      <entry key="M10" value="10.897238957728788" />
+      <entry key="M15" value="19.037668959238978" />
+      <entry key="M30" value="40.168305171271754" />
+      <entry key="H1" value="63.502123033632465" />
+      <entry key="H2" value="81.83613311693486" />
+      <entry key="H4" value="93.74577722789554" />
+      <entry key="D1" value="106.0978808319381" />
+      <entry key="W1" value="108.57353479319532" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3G1c0CTKn1zHUDvsTHzimjduoxy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.springboot2 [org.flywaydb:flyway-maven-plugin:11.14.1:migrate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.StoreApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "show.migrate.to.gradle.popup": "false",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dmsacad.store.dtos.response" />
+      <recent name="com.dmsacad.store.mappers" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fd83015-0dfe-42e4-869c-9dbc88deea03" name="Changes" comment="" />
+      <created>1783142292563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783142292563</updated>
+      <workItem from="1783142296002" duration="8433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

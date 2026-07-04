@@ -67,11 +67,14 @@ VALUES
         'edimo11@example.com',
         '8iNstreet22',
         'USER'
-    )
+    );
+
 INSERT INTO
     `card_items` (`id`, `cart_id`, `product_id`, `quantity`)
 VALUES
     (1, 0x017e96988e6c4fa0810267b644e4b78d, 1, 2),
     (2, 0x4c2b4480ef87458abc340e37ae728043, 3, 5),
     (3, 0x017e96988e6c4fa0810267b644e4b78d, 2, 4),
-    (4, 0x31baafdb3423415f869c45ad6c59661a, 1, 2) (5, 0x1ca06ce7e974420bb60b8d852a8e6f6e, 3, 6) (6, 0x1ca06ce7e974420bb60b8d852a8e6f6e, 2, 3)
+    (4, 0x31baafdb3423415f869c45ad6c59661a, 1, 2),
+    (5, 0x1ca06ce7e974420bb60b8d852a8e6f6e, 3, 6),
+    (6, 0x1ca06ce7e974420bb60b8d852a8e6f6e, 2, 3);

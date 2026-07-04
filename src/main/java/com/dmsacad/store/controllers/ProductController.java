@@ -1,31 +1,41 @@
 package com.dmsacad.store.controllers;
 
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.util.UriComponentsBuilder;
+
 import com.dmsacad.store.dtos.request.ProductRequest;
 import com.dmsacad.store.dtos.response.ProductDto;
-import com.dmsacad.store.entities.Product;
 import com.dmsacad.store.mappers.ProductMapper;
 import com.dmsacad.store.mappers.UserMapper;
 import com.dmsacad.store.repositories.CategoryRepository;
 import com.dmsacad.store.repositories.ProductRepository;
 import com.dmsacad.store.repositories.UserRepository;
 import com.dmsacad.store.services.ProductService;
+
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.util.UriComponentsBuilder;
-
-import java.util.List;
 
 @RestController
 @AllArgsConstructor
 @RequestMapping("/products")
 @Tag(name = "Products")//The default controller on swagger UI is product-controller. Using Here we changed it into "Products"
 public class ProductController {
+
     private final ProductRepository productRepository;
     private final ProductMapper productMapper;
     private final UserMapper userMapper;

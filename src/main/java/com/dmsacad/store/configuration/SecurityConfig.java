@@ -63,6 +63,8 @@ public class SecurityConfig {
                         .requestMatchers("/carts/**").permitAll()
                         .requestMatchers("/admin/**").hasRole(Role.ADMIN.name())//To allow only ADMIN to access /admin endpoints
                         .requestMatchers(HttpMethod.POST, "/users").permitAll() //TO enable only POST request on User
+                        .requestMatchers(HttpMethod.POST, "/products").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/category").permitAll()
                         .requestMatchers(HttpMethod.POST, "/auth/login").permitAll()
                         .requestMatchers(HttpMethod.POST, "/auth/refresh").permitAll()
                         .requestMatchers(HttpMethod.POST, "/checkout/webhook").permitAll()//STRIPE is not a user. We can't as strippe to login. instead we shall use signature
