@@ -20,6 +20,10 @@
 # production
 /build
 
+/.vscode/
+/.idea/
+
+
 
 # misc
 .DS_Store

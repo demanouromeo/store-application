@@ -4,6 +4,7 @@ C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\controllers\AdminController.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\controllers\AuthController.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\controllers\CartController.java
+C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\controllers\CategoryController.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\controllers\CheckoutController.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\controllers\GlobalExceptionHandler.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\controllers\HomeController.java
@@ -17,6 +18,7 @@ C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\request\AuthUserRequest.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\request\CartItemRequest.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\request\CartItemUpdateRequest.java
+C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\request\CategoryRequest.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\request\ChangePasswordRequest.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\request\CheckoutRequest.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\request\ProductRequest.java
@@ -26,6 +28,7 @@ C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\response\CartDto.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\response\CartItemDto.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\response\CartProductDto.java
+C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\response\CategoryDto.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\response\CheckoutResponse.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\response\JwtResponse.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\dtos\response\OrderDto.java
@@ -54,6 +57,7 @@ C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\filters\JwtAuthenticationFilter.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\filters\LoginFilter.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\mappers\CartMapper.java
+C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\mappers\CategoryMapper.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\mappers\OrderMapper.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\mappers\ProductMapper.java
 C:\SPRING_PROJECTS\MOSH COURSE - CODE\SRING API DEV\CHP9 - DEPLOYMENT\chp9_\src\main\java\com\dmsacad\store\mappers\UserMapper.java

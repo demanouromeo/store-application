@@ -3,7 +3,7 @@ spring:
         name: STORE_APPLICATION
     jpa:
         hibernate:
-            ddl-auto: create
+            ddl-auto: validate
     jwt:
         secret: ${JWT_SECRET}
         accessTokenExpiration: 7200 #900 #150 -->2min30s #300 --> 5minutes
