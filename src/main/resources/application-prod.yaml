@@ -1,5 +1,7 @@
 spring:
     datasource:
         url: ${SPRING_DATASOURCE_URL}
-#spring.config.import: "optional:file:.env[.properties]" #VERY IMPORTANT. Without this, .env won't be accessed
+    jpa:
+        hibernate:
+            ddl-auto: create
 websiteUrl: https://dmsacad.com

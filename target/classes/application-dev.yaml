@@ -4,8 +4,6 @@ spring:
         username: root
         password: ""
     jpa:
-        hibernate:
-            ddl-auto: create
         show-sql: true
     output:
         ansi:
