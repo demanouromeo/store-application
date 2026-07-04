@@ -1,7 +1,7 @@
 spring:
     datasource:
         url: ${SPRING_DATASOURCE_URL}
-    jpa:
-        hibernate:
-            ddl-auto: create
+    # jpa:
+    #     hibernate:
+    #         ddl-auto: create
 websiteUrl: https://dmsacad.com
