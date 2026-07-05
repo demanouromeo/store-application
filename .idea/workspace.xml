@@ -5,42 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fd83015-0dfe-42e4-869c-9dbc88deea03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/request/CategoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/response/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/mappers/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/request/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/dtos/request/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/repositories/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V5__population the database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__population the database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/dtos/request/ProductRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/dtos/request/ProductRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/entities/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CartMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CartMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CategoryMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CategoryMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/OrderMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/OrderMapperImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/repositories/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/repositories/CategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/services/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V5__population the database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V5__population the database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/CartMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/OrderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/OrderMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/ProductMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/ProductMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/dmsacad/store/mappers/UserMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springboot2-1.0.0.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/store-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.dmsacad.springboot2.StoreApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.dmsacad.springboot2.StoreApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dmsacad/springboot2/StoreApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/UserMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/UserMapperImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,10 +93,10 @@
       <entry key="W1" value="108.57353479319532" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3G1c0CTKn1zHUDvsTHzimjduoxy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -148,7 +118,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "992ca626",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
