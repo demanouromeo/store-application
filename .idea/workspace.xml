@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fd83015-0dfe-42e4-869c-9dbc88deea03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CartMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CartMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CategoryMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/CategoryMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/OrderMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/OrderMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/ProductMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/UserMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dmsacad/store/mappers/UserMapperImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,61 +33,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.226438225714247E-101" />
-      <entry key="MS500" value="7.40494999235657E-21" />
-      <entry key="S2" value="9.276422753777291E-6" />
-      <entry key="S5" value="0.009704031843727487" />
-      <entry key="S10" value="0.09850904447677628" />
-      <entry key="S30" value="0.46184052215171595" />
-      <entry key="S60" value="0.6795888373778629" />
-      <entry key="M2" value="0.8261779449517891" />
-      <entry key="M5" value="1.3156755630491297" />
-      <entry key="M10" value="3.7192836821696633" />
-      <entry key="M15" value="6.779657874217623" />
-      <entry key="M30" value="14.843440787644383" />
-      <entry key="H1" value="24.067873436702925" />
-      <entry key="H2" value="31.530171180941885" />
-      <entry key="H4" value="36.48356931183905" />
-      <entry key="D1" value="41.74190525950225" />
-      <entry key="W1" value="42.81452897940386" />
+      <entry key="MS100" value="1.000000000075225" />
+      <entry key="MS500" value="1.0098993096570952" />
+      <entry key="S2" value="1.5495504510505982" />
+      <entry key="S5" value="2.991035450169022" />
+      <entry key="S10" value="4.554764863665362" />
+      <entry key="S30" value="7.062162307419779" />
+      <entry key="S60" value="8.47435720657219" />
+      <entry key="M2" value="9.53634925717671" />
+      <entry key="M5" value="10.477058738846647" />
+      <entry key="M10" value="11.80785271081861" />
+      <entry key="M15" value="13.861149614656451" />
+      <entry key="M30" value="20.90191960026546" />
+      <entry key="H1" value="30.71322280336536" />
+      <entry key="H2" value="39.54830059235394" />
+      <entry key="H4" value="45.71865703508853" />
+      <entry key="D1" value="52.398825541320456" />
+      <entry key="W1" value="53.76409145071547" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000072996899223" />
-      <entry key="S5" value="1.0130629967352387" />
-      <entry key="S10" value="1.1609969434811385" />
-      <entry key="S30" value="1.8627953003105908" />
-      <entry key="S60" value="2.313472064042036" />
-      <entry key="M2" value="2.6229259247702856" />
-      <entry key="M5" value="3.3803026023497935" />
-      <entry key="M10" value="7.23998454831271" />
-      <entry key="M15" value="12.364076324112126" />
-      <entry key="M30" value="25.488189532026233" />
-      <entry key="H1" value="39.58525300093107" />
-      <entry key="H2" value="50.40980332061996" />
-      <entry key="H4" value="57.32328880794317" />
-      <entry key="D1" value="64.36766129614833" />
-      <entry key="W1" value="65.76071578494629" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.9417708749016744E-89" />
+      <entry key="S2" value="8.943997925986866E-23" />
+      <entry key="S5" value="2.1747139080090454E-9" />
+      <entry key="S10" value="6.877469188672127E-5" />
+      <entry key="S30" value="0.07924925880672154" />
+      <entry key="S60" value="0.4815858121740132" />
+      <entry key="M2" value="1.2051158422178736" />
+      <entry key="M5" value="2.395399735575326" />
+      <entry key="M10" value="4.719969289042912" />
+      <entry key="M15" value="8.2831968925708" />
+      <entry key="M30" value="20.020483886123166" />
+      <entry key="H1" value="35.426824479567856" />
+      <entry key="H2" value="48.642820225968535" />
+      <entry key="H4" value="57.54997749006305" />
+      <entry key="D1" value="66.83849653726004" />
+      <entry key="W1" value="68.68322680541688" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0610000756361103E-8" />
-      <entry key="MS500" value="0.025418099941628938" />
-      <entry key="S2" value="0.399295418274514" />
-      <entry key="S5" value="0.7088657697019686" />
-      <entry key="S10" value="1.0493697650172635" />
-      <entry key="S30" value="2.186247748036015" />
-      <entry key="S60" value="2.9020544986369265" />
-      <entry key="M2" value="3.3960739636015433" />
-      <entry key="M5" value="4.6656278002807845" />
-      <entry key="M10" value="10.897238957728788" />
-      <entry key="M15" value="19.037668959238978" />
-      <entry key="M30" value="40.168305171271754" />
-      <entry key="H1" value="63.502123033632465" />
-      <entry key="H2" value="81.83613311693486" />
-      <entry key="H4" value="93.74577722789554" />
-      <entry key="D1" value="106.0978808319381" />
-      <entry key="W1" value="108.57353479319532" />
+      <entry key="MS100" value="0.06337246748705153" />
+      <entry key="MS500" value="0.5789415701952583" />
+      <entry key="S2" value="1.291323157371557" />
+      <entry key="S5" value="2.7366840640912127" />
+      <entry key="S10" value="4.341762554757319" />
+      <entry key="S30" value="7.016724465649149" />
+      <entry key="S60" value="8.86734653802019" />
+      <entry key="M2" value="10.681102751992606" />
+      <entry key="M5" value="12.838679732312439" />
+      <entry key="M10" value="16.491755971966874" />
+      <entry key="M15" value="22.084328910636216" />
+      <entry key="M30" value="40.80612973297636" />
+      <entry key="H1" value="66.01292003160104" />
+      <entry key="H2" value="88.09544923362476" />
+      <entry key="H4" value="103.20970301222846" />
+      <entry key="D1" value="119.2256010383484" />
+      <entry key="W1" value="122.4455916042636" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -102,36 +99,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.springboot2 [org.flywaydb:flyway-maven-plugin:11.14.1:migrate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.StoreApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "992ca626",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "show.migrate.to.gradle.popup": "false",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.springboot2 [org.flywaydb:flyway-maven-plugin:11.14.1:migrate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.StoreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;5ebfc79a&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dmsacad.store.dtos.response" />
