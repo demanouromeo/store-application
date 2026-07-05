@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fd83015-0dfe-42e4-869c-9dbc88deea03" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/AdminSecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/AuthSecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/CartsSecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/CategorySecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/CheckoutSecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/ProductSecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/SecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/SwaggerSecurityRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/common/UserSecurityRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmsacad/store/configuration/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000075225" />
-      <entry key="MS500" value="1.0098993096570952" />
-      <entry key="S2" value="1.5495504510505982" />
-      <entry key="S5" value="2.991035450169022" />
-      <entry key="S10" value="4.554764863665362" />
-      <entry key="S30" value="7.062162307419779" />
-      <entry key="S60" value="8.47435720657219" />
-      <entry key="M2" value="9.53634925717671" />
-      <entry key="M5" value="10.477058738846647" />
-      <entry key="M10" value="11.80785271081861" />
-      <entry key="M15" value="13.861149614656451" />
-      <entry key="M30" value="20.90191960026546" />
-      <entry key="H1" value="30.71322280336536" />
-      <entry key="H2" value="39.54830059235394" />
-      <entry key="H4" value="45.71865703508853" />
-      <entry key="D1" value="52.398825541320456" />
-      <entry key="W1" value="53.76409145071547" />
+      <entry key="MS100" value="1.0000000000000815" />
+      <entry key="MS500" value="1.0024808817832314" />
+      <entry key="S2" value="1.312942351404782" />
+      <entry key="S5" value="1.9312511404076909" />
+      <entry key="S10" value="2.359436749125166" />
+      <entry key="S30" value="2.794347630116853" />
+      <entry key="S60" value="3.412669812694237" />
+      <entry key="M2" value="5.120434069364098" />
+      <entry key="M5" value="9.520906358724908" />
+      <entry key="M10" value="14.66564152027332" />
+      <entry key="M15" value="18.59694100370884" />
+      <entry key="M30" value="28.11352590728955" />
+      <entry key="H1" value="41.79296316687878" />
+      <entry key="H2" value="56.117789332802325" />
+      <entry key="H4" value="67.21680548908614" />
+      <entry key="D1" value="79.90934161726848" />
+      <entry key="W1" value="82.54427397568655" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.9417708749016744E-89" />
-      <entry key="S2" value="8.943997925986866E-23" />
-      <entry key="S5" value="2.1747139080090454E-9" />
-      <entry key="S10" value="6.877469188672127E-5" />
-      <entry key="S30" value="0.07924925880672154" />
-      <entry key="S60" value="0.4815858121740132" />
-      <entry key="M2" value="1.2051158422178736" />
-      <entry key="M5" value="2.395399735575326" />
-      <entry key="M10" value="4.719969289042912" />
-      <entry key="M15" value="8.2831968925708" />
-      <entry key="M30" value="20.020483886123166" />
-      <entry key="H1" value="35.426824479567856" />
-      <entry key="H2" value="48.642820225968535" />
-      <entry key="H4" value="57.54997749006305" />
-      <entry key="D1" value="66.83849653726004" />
-      <entry key="W1" value="68.68322680541688" />
+      <entry key="MS100" value="7.50240348321734E-9" />
+      <entry key="MS500" value="0.023716076111092634" />
+      <entry key="S2" value="0.4142222485519041" />
+      <entry key="S5" value="0.9806731635481543" />
+      <entry key="S10" value="1.5767757728584288" />
+      <entry key="S30" value="2.384385442408491" />
+      <entry key="S60" value="2.8499827015179666" />
+      <entry key="M2" value="3.5996292059258703" />
+      <entry key="M5" value="5.193833767193611" />
+      <entry key="M10" value="7.498883239909264" />
+      <entry key="M15" value="9.79664018186526" />
+      <entry key="M30" value="17.907265186238888" />
+      <entry key="H1" value="33.458838977080084" />
+      <entry key="H2" value="51.40299557660122" />
+      <entry key="H4" value="65.67494338241065" />
+      <entry key="D1" value="82.03827496782719" />
+      <entry key="W1" value="85.41675852938384" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.06337246748705153" />
-      <entry key="MS500" value="0.5789415701952583" />
-      <entry key="S2" value="1.291323157371557" />
-      <entry key="S5" value="2.7366840640912127" />
-      <entry key="S10" value="4.341762554757319" />
-      <entry key="S30" value="7.016724465649149" />
-      <entry key="S60" value="8.86734653802019" />
-      <entry key="M2" value="10.681102751992606" />
-      <entry key="M5" value="12.838679732312439" />
-      <entry key="M10" value="16.491755971966874" />
-      <entry key="M15" value="22.084328910636216" />
-      <entry key="M30" value="40.80612973297636" />
-      <entry key="H1" value="66.01292003160104" />
-      <entry key="H2" value="88.09544923362476" />
-      <entry key="H4" value="103.20970301222846" />
-      <entry key="D1" value="119.2256010383484" />
-      <entry key="W1" value="122.4455916042636" />
+      <entry key="MS100" value="2.5484860920020897E-5" />
+      <entry key="MS500" value="0.12350697268704651" />
+      <entry key="S2" value="1.0074266487983439" />
+      <entry key="S5" value="2.2873689392483354" />
+      <entry key="S10" value="3.4521306197557067" />
+      <entry key="S30" value="4.940383411031393" />
+      <entry key="S60" value="6.100470497715693" />
+      <entry key="M2" value="8.591036344782724" />
+      <entry key="M5" value="14.62702174001293" />
+      <entry key="M10" value="22.101542196240302" />
+      <entry key="M15" value="28.33842886059388" />
+      <entry key="M30" value="45.954141747186675" />
+      <entry key="H1" value="75.16372250931114" />
+      <entry key="H2" value="107.43993808532898" />
+      <entry key="H4" value="132.8357913854318" />
+      <entry key="D1" value="161.93527190131596" />
+      <entry key="W1" value="167.95918047858913" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,7 +123,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "v1.0.1",
+    "git-widget-placeholder": "v1.0.2",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -129,6 +139,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dmsacad.store.common" />
       <recent name="com.dmsacad.store.dtos.response" />
       <recent name="com.dmsacad.store.mappers" />
     </key>
