@@ -38,7 +38,8 @@ public class StripePayementGateway implements PaymentGateway {
                     .setMode(SessionCreateParams.Mode.PAYMENT)
                     .setSuccessUrl(websiteUrl + "/checkout-success?orderId=" + order.getId())//Client is redirected to this URL if payment is successfull
                     .setCancelUrl(websiteUrl + "/checkout-cancel.html")//Client is redirected to this URL if payment is CANCELLED
-                    .putMetadata("order_id", order.getId().toString());
+                    .setPaymentIntentData(createPaymentIntent(order)
+                    );
             order.getItems().forEach(item -> {
                         var lineIem = createLineItem(item);
                         builder.addLineItem(lineIem);
@@ -51,6 +52,12 @@ public class StripePayementGateway implements PaymentGateway {
             System.out.println(e.getMessage());
             throw new PaymentException("Couldn't deserialize stripe event. Check the SDK and API version");
         }
+    }
+
+    private static SessionCreateParams.PaymentIntentData createPaymentIntent(Order order) {
+        return SessionCreateParams.PaymentIntentData.builder()
+                .putMetadata("order_id", order.getId().toString())
+                .build();
     }
 
     @Override

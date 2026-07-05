@@ -1,5 +1,6 @@
 package com.dmsacad.store.configuration;
 
+import com.dmsacad.store.common.SecurityRules;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -24,12 +25,15 @@ import com.dmsacad.store.filters.JwtAuthenticationFilter;
 
 import lombok.AllArgsConstructor;
 
+import java.util.List;
+
 @Configuration
 @EnableWebSecurity
 @AllArgsConstructor
 public class SecurityConfig {
 
     private final UserDetailsService userDetailsService;
+    private final List<SecurityRules> featureSecurityRules; //NB: AT RUTIME SPRING WILL INJECT COMPONENTS FROM ALL CLASSES IMPLEMENTING interface SecurityRules
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -59,22 +63,15 @@ public class SecurityConfig {
 
                 )
                 .csrf(AbstractHttpConfigurer::disable)//OR .csrf(c->c.disable()) // To disable CSRF
-                .authorizeHttpRequests(c -> c
-                        .requestMatchers("/swagger-ui/**").permitAll()
-                        .requestMatchers("/swagger-ui.html/**").permitAll()
-                        .requestMatchers("/v3/api-docs/**").permitAll()
-                        .requestMatchers("/carts/**").permitAll()
-                        .requestMatchers("/admin/**").hasRole(Role.ADMIN.name())//To allow only ADMIN to access /admin endpoints
-                        .requestMatchers(HttpMethod.POST, "/users").permitAll() //TO enable only POST request on User
-                        .requestMatchers(HttpMethod.GET, "/products/**").permitAll()// /** Means including the children
-                        .requestMatchers(HttpMethod.POST, "/products/**").hasRole(Role.ADMIN.name())
-                        .requestMatchers(HttpMethod.PUT, "/products/**").hasRole(Role.ADMIN.name())
-                        .requestMatchers(HttpMethod.DELETE, "/products/**").hasRole(Role.ADMIN.name())
-                        .requestMatchers(HttpMethod.POST, "/category").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/auth/login").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/auth/refresh").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/checkout/webhook").permitAll()//STRIPE is not a user. We can't as strippe to login. instead we shall use signature
-                        .anyRequest().authenticated()
+                .authorizeHttpRequests(c -> {
+                            featureSecurityRules.forEach(r->r.configure(c));
+                            //This Lamda expression represents the for loop below
+                            /*
+                            for (var rules : featureSecurityRules) {
+                                rules.configure(c);
+                            }*/
+                            c.anyRequest().authenticated();
+                        }
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)//addFilterBefore means add filter before build-in filters in spring security
                 //With .addFilterBefore we are making all our endpoints accessible if valid token is provided
